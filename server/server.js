@@ -4,6 +4,7 @@ const io = require("socket.io")(port);
 console.log("Server is listening on port: %d", port);
 
 io.on("connect", (socket) => {
+    // Display a event when there's a user connected
     console.log("A user connected");
     
     socket.on("disconnect", (reason) => {
