@@ -1,0 +1,33 @@
+/* test/server.spec.js */
+// Load the 'chai' module with the 'expect' style
+var expect = require("chai").expect;
+// Load the 'socket.io-client' module
+const io = require("socket.io-client");
+describe('----Testing server in the chat', function() {
+    beforeEach(function (done) {    //...  
+    });  
+    afterEach(function (done) {    //...  
+    });  
+    it('Notify that a user joined the chat', function(done) {    
+        //...  
+    });
+    it('Broadcast a message to others in the chat', function(done) {
+        //...  
+    });  
+    //...
+}); // End describe
+describe('----Testing server in a group', function() {  
+    beforeEach(function (done) {    
+        //...  
+    });  
+    afterEach(function (done) {    
+        //...  
+    });  
+    it('Notify that a user joined a group', function(done) {    
+        //...  
+    });  
+    it('Broadcast a message to a group', function(done) {    
+        //...  
+    });  
+    //...
+});
