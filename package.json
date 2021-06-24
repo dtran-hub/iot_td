@@ -2,13 +2,16 @@
   "name": "package.json",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "client.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "socket.io": "^4.1.2"
+    "socket.io-client": "^4.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
   }
 }
